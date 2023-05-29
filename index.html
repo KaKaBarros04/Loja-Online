@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv="content-type" content="text/html";charset="UTF-8" />
+   <meta name="author" content="Kauan Daniel" />
+   <meta name="keywords" content="Moda roupas tenis esportes futebol chuteiras nike qualidade conforto" />
+   <meta name="description" content="Uma pagina de vendas online de materias esportivos" />
+   
+   <title>Nike|Loja Online</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="icon" href="./img/nike.png">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="topo">
+          <img src="./img/logo.png" alt="logo nike"/>
+          <h3><span class="highlight">NIKE</span><hr>STORE</h3>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Início</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+       <img src=""  alt="anuncio do novo tênis" title="anuncio nike" class="banner" />
+	   <br>
+        
+	   <button id="bt1" onclick="timer = setInterval(function(){
+      fotoAtual++;
+      if(fotoAtual > 2){
+        fotoAtual = 0;
+      }
+      
+      TrocarFoto(fotoAtual);
+    } , 4000);">Iniciar</button>
+	   <br>
+	   <button id="bt2" onclick="Parar()">Parar</button>
+      </div>
+    </section>
+    <section id="textprin">
+      
+         <span class="legenda"><h1></h1></span>
+           
+      
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+		 <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fpt%2Fw%2Fhomem-futebol-sapatilhas-1gdj0znik1zy7ok&psig=AOvVaw2LbMNYCxs6TWasarKbtW96&ust=1673694112601000&source=images&cd=vfe&ved=2ahUKEwj26M_JssT8AhU4kCcCHeW_ArgQr4kDegUIARDiAw">
+          <img src="./img/inicio.png"  alt="Nike Zoom Mercurial Vapor 15 Academy MG">
+		  </a>
+          <h2 class="KK">Nike Zoom Mercurial Vapor 15 Academy MG</h2>
+		   
+        </div>
+        <div class="box">
+		  <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgq.globo.com%2FEssa-e-nossa%2Fnoticia%2F2014%2F04%2Fnike-lanca-nova-mercurial-supefly-chuteira-mais-rapida-do-mundo.html&psig=AOvVaw2LbMNYCxs6TWasarKbtW96&ust=1673694112601000&source=images&cd=vfe&ved=2ahUKEwj26M_JssT8AhU4kCcCHeW_ArgQr4kDegUIARDkAw">
+          <img src="./img/inicio2.png" alt="Nike lança nova Mercurial Superfly">
+		  </a>
+          <h2 class="KK">Nike lança nova Mercurial Superfly</h2>
+    
+      </div>
+    </section>
+    <footer>
+       
+            <a href="https://twitter.com/nike" target="_blank"><img src="./img/tt.png" alt="Icone do Twitter" width="30px" height="30px"></a>
+            <a href="https://www.instagram.com/nike" target="_blank"><img src="./img/insta.png" alt="Icone do Instagram" width="30px" height="30px"></a>
+            <a href="https://pt-pt.facebook.com/nike" target="_blank"><img src="./img/face.png" alt="Icone do Facebook" width="30px" height="30px"></a><br />
+			<h5> Nike Store, Copyright © 2023</h5>
+        
+    </footer>
+	
+	<script src="./js/store.js"></script>
+    
+  </body>
