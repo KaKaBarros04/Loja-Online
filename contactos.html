@@ -1,67 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <meta http-equiv="content-type" content="text/html";charset="UTF-8">
-   <meta name="author" content="Kauan Daniel" />
-   <meta name="keywords" content="Moda roupas tenis esportes futebol chuteiras nike qualidade conforto" />
-   <meta name="description" content="Uma pagina de vendas online de materias esportivos" />
-   <title>Nike|Contactos</title>
-   <link rel="stylesheet" href="./css/style.css">
-   <link rel="icon" href="./img/nike.png">
-  </head>
-  <body>
-   <header>
-      <div class="container">
-        <div id="topo">
-          <img src="./img/logo.png"/>
-          <h3><span class="highlight">NIKE</span><hr>Contactos</h3>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kauan Daniel">
+    <meta name="keywords" content="Moda roupas tenis esportes futebol chuteiras nike qualidade conforto">
+    <meta name="description" content="Uma página de vendas online de materiais esportivos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nike | Contactos</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/nike.png">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="./img/logo.png" alt="Logo Nike" height="50">
+                <h3 class="ms-3"><span class="text-warning">NIKE</span><br>Contactos</h3>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-light" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning active" href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-         <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="catalogo.html">Catálogo</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li class="current"><a href="contactos.html">Contactos</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
-	
-	    <section id="showcaseform">
-	<h1>Contacte-nos</h1>
-	<h2>Use nosso formulário de contactos para todas as solicitações de informações ou entre em contacto conosco diretamente<br /> usando as informações de contactos abaixo:</h2>
-	
-	
-	<form>
-	    <div> 
-		     <label>Nome:</label><br />
-			<input type="text" placeholder="Seu nome" required>
-	    </div>
-	     <div> 
-            <label>E-mail:</label><br />
-			<input type="email" placeholder="Seu Email">
-		</div>
-		 <div>
-		    <label>Feedback:</label><br />
-			<textarea type="text" placeholder="Feedback"></textarea>
-		</div>
- 		<div class="button">
-        <button type="submit"><b>Enviar</b></button>
-         </div>
-	</form>
-    	</section><br />
-	 <p class="contactos"><b>Telefone Fixo:</b><br />935 768 9536</p>
-	 <p class="contactos"><b>Email:</b><br />nikeofc@gmail.com</p>
-	 <p class="contactos"><b>Endereço:</b><br />Nike Factory Store lisbon Strad<br />
-	 Estrada da Paia, Lisboa, Portugal, 2675-626</p>
-	<footer>
-       
-            <a href="https://twitter.com/nike" target="_blank"><img src="./img/tt.png" alt="Icone do Twitter" width="30px" height="30px"></a>
-            <a href="https://www.instagram.com/nike" target="_blank"><img src="./img/insta.png" alt="Icone do Instagram" width="30px" height="30px"></a>
-            <a href="https://pt-pt.facebook.com/nike" target="_blank"><img src="./img/face.png" alt="Icone do Facebook" width="30px" height="30px"></a><br />
-			<h5> Nike Store, Copyright © 2023</h5>
-        
+
+    <!-- Seção de Contacto -->
+    <section class="container my-5">
+        <h1 class="text-center mb-4">Contacte-nos</h1>
+        <p class="text-center">
+            Use nosso formulário de contacto para todas as solicitações de informações ou entre em contacto conosco diretamente através das informações abaixo.
+        </p>
+
+        <!-- Formulário -->
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nome:</label>
+                        <input type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" placeholder="Seu Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Feedback:</label>
+                        <textarea class="form-control" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100"><b>Enviar</b></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informações de Contacto -->
+    <section class="container my-5 text-center">
+        <h2>Informações de Contacto</h2>
+        <p><i class="bi bi-telephone"></i> <b>Telefone Fixo:</b> 935 768 9536</p>
+        <p><i class="bi bi-envelope"></i> <b>Email:</b> nikeofc@gmail.com</p>
+        <p><i class="bi bi-geo-alt"></i> <b>Endereço:</b> Nike Factory Store, Estrada da Paia, Lisboa, Portugal, 2675-626</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <a href="https://twitter.com/nike" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/nike" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+            <a href="https://pt-pt.facebook.com/nike" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+            <p class="mt-2">Nike Store, Copyright © 2023</p>
+        </div>
     </footer>
-	
-  <body>
-<html>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

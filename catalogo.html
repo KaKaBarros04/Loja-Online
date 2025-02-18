@@ -1,109 +1,139 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <meta http-equiv="content-type" content="text/html";charset="UTF-8">
-   <meta name="author" content="Kauan Daniel" />
-   <meta name="keywords" content="Moda roupas tenis esportes futebol chuteiras nike qualidade conforto" />
-   <meta name="description" content="Uma pagina de vendas online de materias esportivos" />
-   <title>Nike|Catálogo</title>
-   <link rel="stylesheet" href="./css/style.css">
-   <link rel="icon" href="./img/nike.png">
-  </head>
-  <body>
-   <header>
-      <div class="container">
-        <div id="topo">
-          <img src="./img/logo.png"/>
-          <h3><span class="highlight">NIKE</span><hr>Catálogo</h3>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kauan Daniel">
+    <meta name="keywords" content="Moda roupas tenis esportes futebol chuteiras nike qualidade conforto">
+    <meta name="description" content="Uma página de vendas online de materiais esportivos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nike | Catálogo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/nike.png">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="./img/logo.png" alt="Logo Nike" height="50">
+                <h3 class="ms-3"><span class="text-warning">NIKE</span><br>Catálogo</h3>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-light" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning active" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Início</a></li>
-            <li class="current"><a href="catalogo.html">Catálogo</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
-	
-    <section class="tabela">
-      <table cellspacing="100px"> 
-		 <tr> 
-		  <td><a href="https://www.nike.com/pt/t/sapatilhas-court-vision-low-qHKxTK/FD0320-133">
-          <img src="./img/venda.png" alt="">
-		  </a>
-          <h2 class="KK1">Nike court vision low<br />140,00€</h2></td>
-		   
-        <td rowspan="2"></td>
-       
-		  <td><a href="https://www.nike.com/pt/t/calcas-de-jogging-de-la-cardada-sportswear-club-4Pm2Zz/BV2671-010">
-          <img src="./img/venda2.png" alt="Nike sportswear club fleece">
-		  </a>
-		  <h2 class="KK1">Nike sportswear club fleece<br />90,00€</h2></td>
-		 </tr>
-		 <tr> 
-		  <td><a href=https://www.nike.com/pt/t/sapatilhas-de-basquetebol-luka-1-wh25ZR/DN1772-104">
-          <img src="./img/venda3.png" alt="Luka 1">
-		  </a>
-		  <h2 class="KK1">Luka 1<br />350,00€</h2></td>
-		  
-		  <td><a href="https://www.nike.com/pt/t/t-shirt-sportswear-club-G2qXCD/AR4997-101">
-          <img src="./img/venda4.png" alt="T-shirt sportswear">
-		  </a>
-		  <h2 class="KK1">T-shirt sportswear<br />60,00€</h2></td>
-		   </tr>
-		   
-		  <tr> 
-		  <td><a href="https://www.nike.com/pt/t/sapatilhas-de-basquetebol-kd-trey-5-480DJB/DD9538-013">
-          <img src="./img/venda5.png" alt="KD trey 5 X">
-		  </a>
-		  <h2 class="KK1">KD trey 5 X<br />250,00€</h2><td>
-		  
-		
-		  <td><a href="https://www.nike.com/pt/t/casaco-de-aquecimento-jordan-essentials-Mj5fhp/DJ0886-385">
-          <img src="./img/venda6.png" alt="Jordan Essentials">
-		  </a>
-          <h2 class="KK1">Jordan Essentials<br />120,00€</h2><td>
-		   </tr>
-		   
-		  <tr> 
-		  <td><a href="https://www.nike.com/pt/t/calcas-pro-tKjpP7/DD2122-326">
-          <img src="./img/venda7.png" alt="Nike pro therma-FIT">
-		  </a>
-		  <h2 class="KK1">Nike pro therma-FIT<br />75,00€</h2><td>
-		  
-		  
-		  <td><a href="https://www.nike.com/pt/t/hoodie-pullover-de-inverno-air-gr4Pmh/DQ4225-455">
-          <img src="./img/venda8.png" alt="Nike Air">
-		  </a>
-          <h2 class="KK1">Nike Air<br />110,00€</h2><td>
-		  </tr>
-     <table>
-      </div>
+
+    <!-- Catálogo -->
+    <section class="container my-5">
+        <h1 class="text-center mb-4">Nosso Catálogo</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Produto 1 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/sapatilhas-court-vision-low-qHKxTK/FD0320-133">
+                        <img src="./img/venda.png" class="card-img-top" alt="Nike Court Vision Low">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Court Vision Low</h5>
+                        <p class="card-text">140,00€</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/calcas-de-jogging-de-la-cardada-sportswear-club-4Pm2Zz/BV2671-010">
+                        <img src="./img/venda2.png" class="card-img-top" alt="Nike Sportswear Club Fleece">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Sportswear Club Fleece</h5>
+                        <p class="card-text">90,00€</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/sapatilhas-de-basquetebol-luka-1-wh25ZR/DN1772-104">
+                        <img src="./img/venda3.png" class="card-img-top" alt="Luka 1">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Luka 1</h5>
+                        <p class="card-text">350,00€</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produto 4 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/t-shirt-sportswear-club-G2qXCD/AR4997-101">
+                        <img src="./img/venda4.png" class="card-img-top" alt="T-shirt Sportswear">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt Sportswear</h5>
+                        <p class="card-text">60,00€</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produto 5 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/sapatilhas-de-basquetebol-kd-trey-5-480DJB/DD9538-013">
+                        <img src="./img/venda5.png" class="card-img-top" alt="KD Trey 5 X">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">KD Trey 5 X</h5>
+                        <p class="card-text">250,00€</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produto 6 -->
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a href="https://www.nike.com/pt/t/casaco-de-aquecimento-jordan-essentials-Mj5fhp/DJ0886-385">
+                        <img src="./img/venda6.png" class="card-img-top" alt="Jordan Essentials">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Jordan Essentials</h5>
+                        <p class="card-text">120,00€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-	<footer>
-       
-            <a href="https://twitter.com/nike" target="_blank"><img src="./img/tt.png" alt="Icone do Twitter" width="30px" height="30px"></a>
-            <a href="https://www.instagram.com/nike" target="_blank"><img src="./img/insta.png" alt="Icone do Instagram" width="30px" height="30px"></a>
-            <a href="https://pt-pt.facebook.com/nike" target="_blank"><img src="./img/face.png" alt="Icone do Facebook" width="30px" height="30px"></a><br />
-			<h5> Nike Store, Copyright © 2023</h5>
-        
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <a href="https://twitter.com/nike" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/nike" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+            <a href="https://pt-pt.facebook.com/nike" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+            <p class="mt-2">Nike Store, Copyright © 2023</p>
+        </div>
     </footer>
-	
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   </body>
-   
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
